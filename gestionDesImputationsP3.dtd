@@ -1,0 +1,95 @@
+<!-- 
+	Titre : Projet gestion des imputations du personnel de l'UASZ.
+	Thème : Partage des informations des imputations du personnel de l'UASZ avec les hopitaux.
+	Partie 3 : Création de la DTD.
+	Auteur : Cheikh Tidiane KHOULE @ctkhoule, étudiant M1 GLCP UASZ 2017-2018.
+	contact : ctkhoule@gmail.com
+ -->
+<!-- Définition de l'élément racine et de ces sous éléments -->
+<!ELEMENT gestion_des_imputations ((les_agents, les_hopitaux, les_imputations) | 
+								   (les_agents, les_imputations, les_hopitaux) | 
+								   (les_hopitaux, les_agents, les_imputations) | 
+								   (les_hopitaux, les_imputations, les_agents) | 
+								   (les_imputations, les_agents, les_hopitaux) | 
+								   (les_imputations, les_hopitaux, les_agents) )>
+<!-- Définition des entités -->
+<!ENTITY % mf "Masculin|Féminin">
+<!ENTITY % cr "CDATA #REQUIRED">
+<!ENTITY % pd "#PCDATA">
+<!-- Définition de l'élément <les_agents/> -->
+<!ELEMENT les_agents (agent*)>
+	<!-- Définition des attributs de l'élément <agent/> -->
+	<!ATTLIST agent matricule %cr;
+					genre (%mf;) #REQUIRED>
+	<!-- Définition des sous éléments de l'élément <agent/> -->
+	<!ELEMENT agent ( (nom, prenom, qualite, grade_echelon, situation_matrimoniale, nombre_enfant, les_beneficieres) |
+					  (prenom, nom, qualite, grade_echelon, situation_matrimoniale, nombre_enfant, les_beneficieres) |
+					  (prenom, qualite, nom, grade_echelon, situation_matrimoniale, nombre_enfant, les_beneficieres) |
+					  (prenom, qualite, grade_echelon, nom, situation_matrimoniale, nombre_enfant, les_beneficieres) |
+					  (prenom, qualite, grade_echelon, situation_matrimoniale, nom, nombre_enfant, les_beneficieres) |
+					  (prenom, qualite, grade_echelon, situation_matrimoniale, nombre_enfant, nom, les_beneficieres) |
+					  (prenom, qualite, grade_echelon, situation_matrimoniale, nombre_enfant, nom, les_beneficieres) |
+					  (qualite, prenom, grade_echelon, situation_matrimoniale, nombre_enfant, nom, les_beneficieres) |
+					  (qualite, grade_echelon, prenom, situation_matrimoniale, nombre_enfant, nom, les_beneficieres) |
+					  (qualite, grade_echelon, situation_matrimoniale, prenom, nombre_enfant, nom, les_beneficieres) |
+					  (qualite, grade_echelon, situation_matrimoniale, nombre_enfant, prenom, nom, les_beneficieres) |
+					  (qualite, grade_echelon, situation_matrimoniale, nombre_enfant, nom, prenom, les_beneficieres) |
+					  (grade_echelon, qualite, situation_matrimoniale, nombre_enfant, nom, prenom, les_beneficieres) |
+					  (grade_echelon, situation_matrimoniale, qualite, nombre_enfant, nom, prenom, les_beneficieres) |
+					  (grade_echelon, situation_matrimoniale, nombre_enfant, qualite, nom, prenom, les_beneficieres) |
+					  (grade_echelon, situation_matrimoniale, nombre_enfant, nom, qualite, prenom, les_beneficieres) |
+					  (grade_echelon, situation_matrimoniale, nombre_enfant, nom, prenom, qualite, les_beneficieres) |
+					  (situation_matrimoniale, grade_echelon, nombre_enfant, nom, prenom, qualite, les_beneficieres) |
+					  (situation_matrimoniale, nombre_enfant, grade_echelon, nom, prenom, qualite, les_beneficieres) |
+					  (situation_matrimoniale, nombre_enfant, nom, grade_echelon, prenom, qualite, les_beneficieres) |
+					  (situation_matrimoniale, nombre_enfant, nom, prenom, grade_echelon, qualite, les_beneficieres) |
+					  (situation_matrimoniale, nombre_enfant, nom, prenom, qualite, grade_echelon, les_beneficieres) |
+					  (nombre_enfant, situation_matrimoniale, nom, prenom, qualite, grade_echelon, les_beneficieres) |
+					  (nombre_enfant, nom, situation_matrimoniale, prenom, qualite, grade_echelon, les_beneficieres) |
+					  (nombre_enfant, nom, prenom, situation_matrimoniale, qualite, grade_echelon, les_beneficieres) |
+					  (nombre_enfant, nom, prenom, qualite, situation_matrimoniale, grade_echelon, les_beneficieres) |
+					  (nombre_enfant, nom, prenom, qualite, grade_echelon, situation_matrimoniale, les_beneficieres) |
+					  (nom, nombre_enfant, prenom, qualite, grade_echelon, situation_matrimoniale, les_beneficieres) |
+					  (nom, prenom, nombre_enfant, qualite, grade_echelon, situation_matrimoniale, les_beneficieres) |
+					  (nom, prenom, qualite, nombre_enfant, grade_echelon, situation_matrimoniale, les_beneficieres) |
+					  (nom, prenom, qualite, grade_echelon, nombre_enfant, situation_matrimoniale, les_beneficieres) )>
+		<!ELEMENT nom (%pd;)>
+		<!ELEMENT prenom (%pd;)>
+		<!ELEMENT qualite (%pd;)>
+		<!ELEMENT grade_echelon (%pd;)>
+		<!ELEMENT situation_matrimoniale (%pd;)>
+		<!ELEMENT nombre_enfant (%pd;)>
+		<!ELEMENT les_beneficieres (beneficier*)>
+			<!-- Définition des attributs de l'élément <beneficier/> -->
+			<!ATTLIST beneficier identifiant %cr;
+								 sexe (%mf;) #REQUIRED>
+			<!-- Définition des sous éléments de l'élément <beneficier/> -->
+			<!ELEMENT beneficier ((nom, prenom, type) | 
+								  (nom, type, prenom) | 
+								  (type, nom, prenom) | 
+								  (type, prenom, nom) | 
+								  (prenom, nom, type) |
+								  (prenom, type, nom) )>
+			<!ELEMENT type (%pd;)>
+<!-- Définition de l'élément <les_hopitaux/> -->
+<!ELEMENT les_hopitaux (hopital*)>
+	<!-- Définition des attributs de l'élément <hopital/> -->
+	<!ATTLIST hopital hop %cr;>	
+	<!-- Définition des sous éléments de l'élément <hopital/> -->
+	<!ELEMENT hopital (nom, adresse, telephone, email, les_services)>
+		<!ELEMENT adresse (%pd;)>
+		<!ELEMENT telephone (%pd;)>
+		<!ELEMENT email (%pd;)>
+		<!ELEMENT les_services (service+)>
+			<!ELEMENT service (%pd;)>
+<!-- Définition de l'élément <les_imputations/> -->
+<!ELEMENT les_imputations (imputation*)>
+	<!-- Définition des attributs de l'élément <imputation/> -->
+	<!ATTLIST imputation codeImputation %cr;
+						 date %cr;
+						 codeIdentifiant %cr;
+						 codeHop %cr;>
+	<!-- Définition des sous éléments de l'élément <imputation/> -->
+	<!ELEMENT imputation (service)>
+
+
