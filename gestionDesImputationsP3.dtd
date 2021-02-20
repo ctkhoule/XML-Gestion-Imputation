@@ -1,8 +1,8 @@
 <!-- 
-	Titre : Projet gestion des imputations du personnel de l'UASZ.
-	Thème : Partage des informations des imputations du personnel de l'UASZ avec les hopitaux.
+	Titre : Projet gestion des imputations du personnel d'un établissement scolaire (université).
+	Thème : Partage des informations des imputations du personnel de l'établissement avec les hopitaux.
 	Partie 3 : Création de la DTD.
-	Auteur : Cheikh Tidiane KHOULE @ctkhoule, étudiant M1 GLCP UASZ 2017-2018.
+	Auteur : Cheikh Tidiane KHOULE @ctkhoule
 	contact : ctkhoule@gmail.com
  -->
 <!-- Définition de l'élément racine et de ces sous éléments -->
