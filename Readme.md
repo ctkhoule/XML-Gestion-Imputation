@@ -1,11 +1,10 @@
 # XML-Gestion-Imputation
 Mise en place d'un système de gestion d'imputation.
 
-## Projet gestion des imputations du personnel de [l'UASZ](https://www.univ-zig.sn/).
+## Projet gestion des imputations du personnel d'un établissement scolaire (université).
 
-Le projet concerne le partage des informations des imputations du personnel de [l'UASZ](https://www.univ-zig.sn/) avec les hopitaux de la région de Ziguinchor (Sénégal).
+Le projet concerne le partage des informations des imputations du personnel de l'établissement avec les hopitaux.
 
-Le projet entre dans le cadre de la formation en __Master 1 Génie Logiciel Conduite de Projet__  (année académique 2017-2018) du département informatique de [l'UASZ](https://www.univ-zig.sn/).
 
 Le projet est découpé en quatre parties :
 
@@ -21,9 +20,12 @@ Le projet est découpé en quatre parties :
 
 Abréviation :
 
-- UASZ : [Université Assane Seck de Ziguinchor](https://www.univ-zig.sn/).
-
 - XML : Signifie __eXtensible Markup Language__, c'est un langage de balisage extensible. C'est un langage : Cela signifie que ce format de fichier est conçu pour transmettre des informations.
 
 - DTD : La __Document Type Definition__, ou définition de type de document, est, soit un fichier, soit une partie d'un document SGML ou XML, qui décrit ce document ou une classe de documents.
 
+---
+
+NB :
+
+A noter que le document est ume démo.
