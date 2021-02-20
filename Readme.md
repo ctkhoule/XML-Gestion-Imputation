@@ -8,13 +8,13 @@ Le projet concerne le partage des informations des imputations du personnel de l
 
 Le projet est découpé en quatre parties :
 
-- Partie 01 : Création du document XML.
+- Partie 01 : [Création du document XML](https://github.com/ctkhoule/XML-Gestion-Imputation/blob/master/gestionDesImputationsP1.xml)
 
-- Partie 02 : Utilisation des espaces de noms.
+- Partie 02 : [Utilisation des espaces de noms](https://github.com/ctkhoule/XML-Gestion-Imputation/blob/master/gestionDesImputationsP2.xml)
 
-- Partie 03 : Création de la DTD.
+- Partie 03 : [Création de la DTD](https://github.com/ctkhoule/XML-Gestion-Imputation/blob/master/gestionDesImputationsP3.dtd)
 
-- Partie 04 : DTD avec les liens croisés.
+- Partie 04 : [DTD avec les liens croisés](https://github.com/ctkhoule/XML-Gestion-Imputation/blob/master/gestionDesImputationsP4.dtd)
 
 ---
 
