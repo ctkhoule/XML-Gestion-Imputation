@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	Titre : Projet gestion des imputations du personnel de l'UASZ.
+	Thème : Partage des informations des imputations du personnel de l'UASZ avec les hopitaux.
+	Partie 1 : Création du document XML.
+	Auteur : Cheikh Tidiane KHOULE @ctkhoule, étudiant M1 GLCP UASZ 2017-2018.
+	contact : ctkhoule@gmail.com
+-->
+<gestion_des_imputations>
+
+		<!-- Début définition des Agents -->
+		<les_agents>
+		
+				<!-- Agent Modou FALL -->
+				<agent matricule="AG100" genre="Masculin">
+					<nom>FALL</nom>
+					<prenom>Modou</prenom>
+					<qualite>PER</qualite>
+					<grade_echelon>2-1</grade_echelon>
+					<situation_matrimoniale>Marié</situation_matrimoniale>
+					<nombre_enfant>2</nombre_enfant>
+					<!-- Début définition des Bénéficiers -->	
+					<les_beneficieres>
+						<!-- Bénéficier Ibou FALL -->
+						<beneficier identifiant="BF001" sexe="Masculin">
+							<nom>FALL</nom>
+							<prenom>Ibou</prenom>
+							<type>Enfant</type>
+						</beneficier>
+						<!-- Bénéficier Fatou FALL -->
+						<beneficier identifiant="BF002" sexe="Féminin">
+							<nom>FALL</nom>
+							<prenom>Fatou</prenom>
+							<type>Enfant</type>
+						</beneficier>
+						<!-- Bénéficier Ibou FALL -->
+						<beneficier identifiant="BF003" sexe="Féminin">
+							<nom>GUEYE</nom>
+							<prenom>Khady</prenom>
+							<type>Epouse</type>
+						</beneficier>
+						<!-- Bénéficier Modou FALL, l'agent est aussi bénéficier -->
+						<beneficier identifiant="BF016" sexe="Masculin">
+							<nom>FALL</nom>
+							<prenom>Modou</prenom>
+							<type>Agent</type>
+						</beneficier>
+				    </les_beneficieres>
+					<!-- Fin définition des Bénéficiers -->
+				</agent>
+				
+				<!-- Agent Fatoumata SALL -->
+				<agent matricule="AG101" genre="Féminin">
+					<nom>SALL</nom>
+					<prenom>Fatoumata</prenom>
+					<qualite>PATS</qualite>
+					<grade_echelon>2-2</grade_echelon>
+					<situation_matrimoniale>Marié</situation_matrimoniale>
+					<nombre_enfant>3</nombre_enfant>
+					<!-- Début définition des Beneficiers -->	
+					<les_beneficieres>
+						<!-- Bénéficier Moussa TOURE -->
+						<beneficier identifiant="BF004" sexe="Masculin">
+							<nom>TOURE</nom>
+							<prenom>Moussa</prenom>
+							<type>Epoux</type>
+						</beneficier>
+						<!-- Bénéficier Abdou TOURE -->
+						<beneficier identifiant="BF005" sexe="Masculin">
+							<nom>TOURE</nom>
+							<prenom>Abdou</prenom>
+							<type>Enfant</type>
+						</beneficier>
+						<!-- Bénéficier Maman TOURE -->
+						<beneficier identifiant="BF006" sexe="Féminin">
+							<nom>TOURE</nom>
+							<prenom>Maman</prenom>
+							<type>Enfant</type>
+						</beneficier>
+						<!-- Bénéficier Papa TOURE -->
+						<beneficier identifiant="BF007" sexe="Masculin">
+							<nom>TOURE</nom>
+							<prenom>Papa</prenom>
+							<type>Enfant</type>
+						</beneficier>
+						<!-- Bénéficier Fatoumata SALL, l'agent est aussi bénéficier -->
+						<beneficier identifiant="BF017" sexe="Féminin">
+							<nom>SALL</nom>
+							<prenom>Fatoumata</prenom>
+							<type>Agent</type>
+						</beneficier>
+				    </les_beneficieres>
+					<!-- Fin définition des Beneficiers -->
+				</agent>
+				
+				<!-- Agent Mor DIENG -->
+				<agent matricule="AG102" genre="Masculin">
+					<nom>DIENG</nom>
+					<prenom>Mor</prenom>			
+					<qualite>PATS</qualite>
+					<grade_echelon>2-2</grade_echelon>
+					<situation_matrimoniale>Célibataire</situation_matrimoniale>
+					<nombre_enfant>0</nombre_enfant>
+					<!-- Début définition des Beneficiers -->
+					 <les_beneficieres>	
+						<!-- Bénéficier Mor DIENG, l'agent est aussi bénéficier -->
+						<beneficier identifiant="BF018" sexe="Masculin">
+							<nom>DIENG</nom>
+							<prenom>Mor</prenom>
+							<type>Agent</type>
+						</beneficier>
+					 </les_beneficieres>
+					<!-- Fin définition des Beneficiers -->
+				</agent>
+				
+				<!-- Agent Gora GAYE -->
+				<agent matricule="AG103" genre="Masculin">
+					<nom>GAYE</nom>
+					<prenom>Gora</prenom>			
+					<qualite>PER</qualite>
+					<grade_echelon>PCE</grade_echelon>
+					<situation_matrimoniale>Marié</situation_matrimoniale>
+					<nombre_enfant>3</nombre_enfant>
+					<!-- Début définition des Beneficierss -->
+					<les_beneficieres>
+						<!-- Bénéficier Marième GAYE -->
+						<beneficier identifiant="BF008" sexe="Féminin">
+							<nom>GAYE</nom>
+							<prenom>Marième</prenom>
+							<type>Epouse</type>
+						</beneficier>
+						<!-- Bénéficier Fagi GAYE -->
+						<beneficier identifiant="BF009" sexe="Féminin">
+							<nom>GAYE</nom>
+							<prenom>Fagi</prenom>
+							<type>Epouse</type>
+						</beneficier>
+						<!-- Bénéficier Mar GAYE -->
+						<beneficier identifiant="BF010" sexe="Masculin">
+							<nom>GAYE</nom>
+							<prenom>Mar</prenom>
+							<type>Enfant</type>
+						</beneficier>
+						<!-- Bénéficier Mouhamed GAYE -->
+						<beneficier identifiant="BF011" sexe="Masculin">
+							<nom>GAYE</nom>
+							<prenom>Mouhamed</prenom>
+							<type>Enfant</type>
+						</beneficier>
+						<!-- Bénéficier Baye Aya GAYE -->
+						<beneficier identifiant="BF012" sexe="Masculin">
+							<nom>GAYE</nom>
+							<prenom>Baye Aya</prenom>
+							<type>Enfant</type>
+						</beneficier>
+						<!-- Bénéficier Gora GAYE, l'agent est aussi bénéficier -->
+						<beneficier identifiant="BF019" sexe="Masculin">
+							<nom>GAYE</nom>
+							<prenom>Gora</prenom>
+							<type>Agent</type>
+						</beneficier>
+				    </les_beneficieres>
+					<!-- Fin définition des Beneficiers -->
+				</agent>
+				
+				<!-- Agent Fatou SOW -->
+				<agent matricule="AG104" genre="Féminin">
+					<nom>SOW</nom>
+					<prenom>Fatou</prenom>			
+					<qualite>PER</qualite>
+					<grade_echelon>P-1-2</grade_echelon>
+					<situation_matrimoniale>Marié</situation_matrimoniale>
+					<nombre_enfant>2</nombre_enfant>
+					<!-- Début définition des Beneficiers -->
+					<les_beneficieres>
+						<!-- Bénéficier Modou SANKE -->
+						<beneficier identifiant="BF013" sexe="Masculin">
+							<nom>SANKE</nom>
+							<prenom>Modou</prenom>
+							<type>Epoux</type>
+						</beneficier>
+						<!-- Bénéficier Anta SANKE -->
+						<beneficier identifiant="BF014" sexe="Féminin">
+							<nom>SANKE</nom>
+							<prenom>Anta</prenom>
+							<type>Enfant</type>
+						</beneficier>
+						<!-- Bénéficier Mame Mor SANKE -->
+						<beneficier identifiant="BF015" sexe="Masculin">
+							<nom>SANKE</nom>
+							<prenom>Mame Mor</prenom>
+							<type>Enfant</type>
+						</beneficier>
+						<!-- Bénéficier Fatou SOW, l'agent est aussi bénéficier -->
+						<beneficier identifiant="BF020" sexe="Masculin">
+							<nom>SOW</nom>
+							<prenom>Fatou</prenom>
+							<type>Agent</type>
+						</beneficier>
+				    </les_beneficieres>
+					<!-- Fin définition des Beneficiers -->
+				</agent>
+							
+		</les_agents>
+		<!-- Fin définition des Agents -->
+		
+		<!-- Début définition des Hopitaux -->
+		<les_hopitaux>
+		
+				<!-- Hopital de la paix -->
+				<hopital hop="HOP200">
+					<nom>Hopital de la paix</nom>
+					<adresse>Boucotte Sud rue de la paix, Ziguinchor</adresse>
+					<telephone>+221336543421</telephone>
+					<email>hopdelapaix@gmail.com</email>
+					<!-- Début définition des Services de l'hopital de la paix -->
+					<les_services>
+						<service>Psychiatrie</service>
+						<service>Neurologie</service>
+						<service>Neurochirurgie</service>
+						<service>Chirurgie</service>
+						<service>Bucco-dentaire</service>
+						<service>Cardiologie médicalss</service>
+						<service>Maladie infectieuse</service>
+						<service>Pharmacie</service>
+						<service>Maternité</service>
+					</les_services>
+					<!-- Fin définition des Services de l'hopital de la paix -->
+				</hopital>
+				
+				<!-- Hopital silence -->
+				<hopital hop="HOP201">
+					<nom>Hopital silence</nom>
+					<adresse>Nema 2 rue de l&apos;indépendance, Ziguinchor</adresse>
+					<telephone>+221338560012</telephone>
+					<email>hopsilence@gmail.com</email>
+					<!-- Début définition des Services de l'hopital silence -->
+					<les_services>
+						<service>Neurochirurgie</service>
+						<service>Bucco-dentaire</service>
+						<service>Cardiologie médical</service>
+						<service>Ophtalmologie</service>
+						<service>Kinésithérapie</service>
+						<service>Maternité</service>
+						<service>Maladie infectieuse</service>
+						<service>Pharmacie</service>
+					</les_services>
+					<!-- Fin définition des Services de l'hopital silence -->
+				</hopital>
+				
+				<!-- Hopital régionale -->
+				<hopital hop="HOP202">
+					<nom>Hopital régionale</nom>
+					<adresse>Escal 1 rue Aline Sitoé DIATTA, Ziguinchor</adresse>
+					<telephone>+221333347687</telephone>
+					<email>hopregionale@gmail.com</email>
+					<!-- Début définition des Services de l'hopital régionale -->
+					<les_services>
+						<service>Hépato-gastroentérologie</service>
+						<service>Traumatologie</service>
+						<service>Urologie</service>
+						<service>Maternité</service>
+						<service>Pharmacie</service>
+						<service>Chirurgie Cervico-Faciale</service>
+						<service>Réanimation</service>
+						<service>Pneumologie</service>
+						<service>Pharmacie</service>
+						<service>Maladie infectieuse</service>
+					</les_services>
+					<!-- Fin définition des Services de l'hopital régionale -->
+				</hopital>
+				
+		</les_hopitaux>
+		<!-- Fin définition des Hopitaux -->
+	
+		<!-- Début définition des Imputations -->
+		<les_imputations>
+		
+				<!-- Imputation demandé pour le bénéficier "BF001" pour le service "Urologie" de l'hopital "HOP202" -->
+				<!-- Lorqu'on a le bénéficier on peut directement connaitre l'agent à qui il est rattaché -->
+				<imputation codeImputation="IMP300" date="01/10/2018" codeIdentifiant="BF001" codeHop="HOP202">
+					<service>Urologie</service>					
+				</imputation>
+				
+				<!-- Imputation demandé pour le bénéficier "BF004" pour le service "Pharmacie" de l'hopital "HOP200" -->
+				<!-- Lorqu'on a le bénéficier on peut directement connaitre l'agent à qui il est rattaché -->
+				<imputation codeImputation="IMP301" date="05/10/2018" codeIdentifiant="BF004" codeHop="HOP200">
+					<service>Pharmacie</service>					
+				</imputation>
+				
+				<!-- Imputation demandé pour le bénéficier "BF008" pour le service "Maternité" de l'hopital "HOP201" -->
+				<!-- Lorqu'on a le bénéficier on peut directement connaitre l'agent à qui il est rattaché -->
+				<imputation codeImputation="IMP302" date="05/10/2018" codeIdentifiant="BF008" codeHop="HOP201">
+					<service>Maternité</service>					
+				</imputation>
+				
+				<!-- Imputation demandé pour le bénéficier "BF015" pour le service "Ophtalmologie" de l'hopital "HOP201" -->
+				<!-- Lorqu'on a le bénéficier on peut directement connaitre l'agent à qui il est rattaché -->
+				<imputation codeImputation="IMP303" date="15/10/2018" codeIdentifiant="BF015" codeHop="HOP201">
+					<service>Ophtalmologie</service>					
+				</imputation>
+				
+				<!-- Imputation demandé pour le bénéficier "BF012" pour le service "Bucco-dentaire" de l'hopital "HOP200" -->
+				<!-- Lorqu'on a le bénéficier on peut directement connaitre l'agent à qui il est rattaché -->
+				<imputation codeImputation="IMP304" date="25/10/2018" codeIdentifiant="BF012" codeHop="HOP200">
+					<service>Bucco-dentaire</service>					
+				</imputation>
+				
+				<!-- Imputation demandé pour le bénéficier "BF007" pour le service "Maladie infectieuse" de l'hopital "HOP202" -->
+				<!-- Lorqu'on a le bénéficier on peut directement connaitre l'agent à qui il est rattaché -->
+				<imputation codeImputation="IMP305" date="03/11/2018" codeIdentifiant="BF007" codeHop="HOP202">
+					<service>Maladie infectieuse</service>					
+				</imputation>
+				
+				<!-- Imputation demandé pour le bénéficier "BF011" pour le service "Cardiologie médical" de l'hopital "HOP202" -->
+				<!-- Lorqu'on a le bénéficier on peut directement connaitre l'agent à qui il est rattaché -->
+				<imputation codeImputation="IMP306" date="07/11/2018" codeIdentifiant="BF011" codeHop="HOP202">
+					<service>Cardiologie médical</service>					
+				</imputation>
+						
+		</les_imputations>
+		<!-- Fin définition des Imputations -->
+
+</gestion_des_imputations>

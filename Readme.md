@@ -13,9 +13,9 @@ Le projet est découpé en quatre parties :
 
 - Partie 02 : Utilisation des espaces de noms.
 
-- Partie 01 : Création de la DTD.
+- Partie 03 : Création de la DTD.
 
-- Partie 01 : DTD avec les liens croisés.
+- Partie 04 : DTD avec les liens croisés.
 
 ---
 
