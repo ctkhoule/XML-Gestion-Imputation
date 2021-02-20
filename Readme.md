@@ -7,7 +7,7 @@ Le projet concerne le partage des informations des imputations du personnel de [
 
 Le projet entre dans le cadre de la formation en __Master 1 Génie Logiciel Conduite de Projet__  (2017-2018) du département informatique de [l'UASZ](https://www.univ-zig.sn/).
 
-Le projet est découpé sous quatre parties :
+Le projet est découpé en quatre parties :
 
 - Partie 01 : Création du Document XML.
 
@@ -21,7 +21,7 @@ Le projet est découpé sous quatre parties :
 
 Abréviation :
 
-- UASZ : Université Assane Seck de Ziguinchor
+- UASZ : [Université Assane Seck de Ziguinchor](https://www.univ-zig.sn/).
 
 - XML : Signifie __eXtensible Markup Language__, c'est un langage de balisage extensible. C'est un langage : Cela signifie que ce format de fichier est conçu pour transmettre des informations.
 
