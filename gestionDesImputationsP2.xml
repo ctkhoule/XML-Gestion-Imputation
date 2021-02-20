@@ -1,201 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-	Titre : Projet gestion des imputations du personnel de l'UASZ.
-	Thème : Partage des informations des imputations du personnel de l'UASZ avec les hopitaux.
+	Titre : Projet gestion des imputations du personnel  d'un établissement scolaire (université)..
+	Thème : Partage des informations des imputations du personnel de l'établissement avec les hopitaux.
 	Partie 2 : Utilisation des espaces de noms.
-	Auteur : Cheikh Tidiane KHOULE @ctkhoule, étudiant M1 GLCP UASZ 2017-2018.
+	Auteur : Cheikh Tidiane KHOULE @ctkhoule
 	contact : ctkhoule@gmail.com
 -->
-<racine:gestion_des_imputations xmlns:racine="http://www.uasz.sn/elementracine">
+<racine:gestion_des_imputations xmlns:racine="http://domaine/elementracine">
 
 		<!-- Début définition des Agents -->
-		<gesagents:les_agents xmlns:gesagents="http://www.uasz.sn/gestiondesagents"
-							  xmlns:gesbeneficiers="http://www.uasz.sn/gestiondesbeneficiers">
+		<gesagents:les_agents xmlns:gesagents="http://domaine/gestiondesagents"
+							  xmlns:gesbeneficiers="http://domaine/gestiondesbeneficiers">
 		
-				<!-- Agent Modou FALL -->
+				<!-- Agent -->
 				<gesagents:agent gesagents:matricule="gesagents:AG100" gesagents:genre="gesagents:Masculin">
-					<gesagents:nom>FALL</gesagents:nom>
-					<gesagents:prenom>Modou</gesagents:prenom>
+					<gesagents:nom>Nom</gesagents:nom>
+					<gesagents:prenom>Prenom</gesagents:prenom>
 					<gesagents:qualite>PER</gesagents:qualite>
 					<gesagents:grade_echelon>2-1</gesagents:grade_echelon>
 					<gesagents:situation_matrimoniale>Marié</gesagents:situation_matrimoniale>
 					<gesagents:nombre_enfant>2</gesagents:nombre_enfant>
 					<!-- Début définition des Bénéficiers -->	
 					<gesbeneficiers:les_beneficieres>
-						<!-- Bénéficier Ibou FALL -->
+						<!-- Bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF001" sexe="gesbeneficiers:Masculin">
-							<gesbeneficiers:nom>FALL</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Ibou</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Enfant</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
-						<!-- Bénéficier Fatou FALL -->
+						<!-- Bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF002" gesbeneficiers:sexe="gesbeneficiers:Féminin">
-							<gesbeneficiers:nom>FALL</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Fatou</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Enfant</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
-						<!-- Bénéficier Ibou FALL -->
+						<!-- Bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF003" sexe="gesbeneficiers:Féminin">
-							<nom>GUEYE</nom>
-							<gesbeneficiers:prenom>Khady</gesbeneficiers:prenom>
+							<nom>Nom</nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Epouse</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
-						<!-- Bénéficier Modou FALL, l'agent est aussi bénéficier -->
+						<!-- Bénéficier, l'agent est aussi bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF016" gesbeneficiers:sexe="gesbeneficiers:Masculin">
-							<gesbeneficiers:nom>FALL</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Modou</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Agent</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
 				    </gesbeneficiers:les_beneficieres>
 					<!-- Fin définition des Bénéficiers -->
 				</gesagents:agent>
 				
-				<!-- Agent Fatoumata SALL -->
+				<!-- Agent -->
 				<gesagents:agent gesagents:matricule="gesagents:AG101" gesagents:genre="gesagents:Féminin">
-					<gesagents:nom>SALL</gesagents:nom>
-					<gesagents:prenom>Fatoumata</gesagents:prenom>
+					<gesagents:nom>Nom</gesagents:nom>
+					<gesagents:prenom>Prenom</gesagents:prenom>
 					<gesagents:qualite>PATS</gesagents:qualite>
 					<gesagents:grade_echelon>2-2</gesagents:grade_echelon>
 					<gesagents:situation_matrimoniale>Marié</gesagents:situation_matrimoniale>
 					<gesagents:nombre_enfant>3</gesagents:nombre_enfant>
 					<!-- Début définition des Beneficiers -->	
 					<gesbeneficiers:les_beneficieres>
-						<!-- Bénéficier Moussa TOURE -->
+						<!-- Bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF004" gesbeneficiers:sexe="gesbeneficiers:Masculin">
-							<gesbeneficiers:nom>TOURE</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Moussa</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Epoux</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
-						<!-- Bénéficier Abdou TOURE -->
+						<!-- Bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF005" gesbeneficiers:sexe="gesbeneficiers:Masculin">
-							<gesbeneficiers:nom>TOURE</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Abdou</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Enfant</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
-						<!-- Bénéficier Maman TOURE -->
+						<!-- Bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF006" gesbeneficiers:sexe="gesbeneficiers:Féminin">
-							<gesbeneficiers:nom>TOURE</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Maman</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Enfant</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
-						<!-- Bénéficier Papa TOURE -->
+						<!-- Bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF007" gesbeneficiers:sexe="gesbeneficiers:Masculin">
-							<gesbeneficiers:nom>TOURE</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Papa</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Enfant</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
-						<!-- Bénéficier Fatoumata SALL, l'agent est aussi bénéficier -->
+						<!-- Bénéficier, l'agent est aussi bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF017" gesbeneficiers:sexe="gesbeneficiers:Féminin">
-							<gesbeneficiers:nom>SALL</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Fatoumata</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Agent</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
 				    </gesbeneficiers:les_beneficieres>
 					<!-- Fin définition des Beneficiers -->
 				</gesagents:agent>
 				
-				<!-- Agent Mor DIENG -->
+				<!-- Agent -->
 				<gesagents:agent gesagents:matricule="gesagents:AG102" gesagents:genre="gesagents:Masculin">
-					<gesagents:nom>DIENG</gesagents:nom>
-					<gesagents:prenom>Mor</gesagents:prenom>			
+					<gesagents:nom>Nom</gesagents:nom>
+					<gesagents:prenom>Prenom</gesagents:prenom>			
 					<gesagents:qualite>PATS</gesagents:qualite>
 					<grade_echelon>2-2</grade_echelon>
 					<gesagents:situation_matrimoniale>Célibataire</gesagents:situation_matrimoniale>
 					<gesagents:nombre_enfant>0</gesagents:nombre_enfant>
 					<!-- Début définition des Beneficiers -->
 					<gesbeneficiers:les_beneficieres>	
-						<!-- Bénéficier Mor DIENG, l'agent est aussi bénéficier -->
+						<!-- Bénéficier, l'agent est aussi bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF018" gesbeneficiers:sexe="gesbeneficiers:Masculin">
-							<gesbeneficiers:nom>DIENG</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Mor</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Agent</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
 					</gesbeneficiers:les_beneficieres>
 					<!-- Fin définition des Beneficiers -->
 				</gesagents:agent>
 				
-				<!-- Agent Gora GAYE -->
+				<!-- Agent -->
 				<gesagents:agent gesagents:matricule="gesagents:AG103" gesagents:genre="gesagents:Masculin">
-					<gesagents:nom>GAYE</gesagents:nom>
-					<gesagents:prenom>Gora</gesagents:prenom>			
+					<gesagents:nom>Nom</gesagents:nom>
+					<gesagents:prenom>Prenom</gesagents:prenom>			
 					<gesagents:qualite>PER</gesagents:qualite>
 					<gesagents:grade_echelon>PCE</gesagents:grade_echelon>
 					<gesagents:situation_matrimoniale>Marié</gesagents:situation_matrimoniale>
 					<gesagents:nombre_enfant>3</gesagents:nombre_enfant>
 					<!-- Début définition des Beneficierss -->
 					<gesbeneficiers:les_beneficieres>
-						<!-- Bénéficier Marième GAYE -->
+						<!-- Bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF008" gesbeneficiers:sexe="gesbeneficiers:Féminin">
-							<gesbeneficiers:nom>GAYE</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Marième</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Epouse</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
-						<!-- Bénéficier Fagi GAYE -->
+						<!-- Bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF009" gesbeneficiers:sexe="gesbeneficiers:Féminin">
-							<gesbeneficiers:nom>GAYE</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Fagi</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Epouse</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
-						<!-- Bénéficier Mar GAYE -->
+						<!-- Bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF010" gesbeneficiers:sexe="gesbeneficiers:Masculin">
-							<gesbeneficiers:nom>GAYE</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Mar</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Enfant</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
-						<!-- Bénéficier Mouhamed GAYE -->
+						<!-- Bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF011" gesbeneficiers:sexe="gesbeneficiers:Masculin">
-							<gesbeneficiers:nom>GAYE</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Mouhamed</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Enfant</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
-						<!-- Bénéficier Baye Aya GAYE -->
+						<!-- Bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF012" sexe="gesbeneficiers:Masculin">
-							<gesbeneficiers:nom>GAYE</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Baye Aya</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Enfant</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
-						<!-- Bénéficier Gora GAYE, l'agent est aussi bénéficier -->
+						<!-- Bénéficier, l'agent est aussi bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF019" gesbeneficiers:sexe="gesbeneficiers:Masculin">
-							<gesbeneficiers:nom>GAYE</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Gora</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Agent</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
 				    </gesbeneficiers:les_beneficieres>
 					<!-- Fin définition des Beneficiers -->
 				</gesagents:agent>
 				
-				<!-- Agent Fatou SOW -->
+				<!-- Agent -->
 				<gesagents:agent gesagents:matricule="gesagents:AG104" gesagents:genre="gesagents:Féminin">
-					<gesagents:nom>SOW</gesagents:nom>
-					<gesagents:prenom>Fatou</gesagents:prenom>			
+					<gesagents:nom>Nom</gesagents:nom>
+					<gesagents:prenom>Prenom</gesagents:prenom>			
 					<gesagents:qualite>PER</gesagents:qualite>
 					<gesagents:grade_echelon>P-1-2</gesagents:grade_echelon>
 					<gesagents:situation_matrimoniale>Marié</gesagents:situation_matrimoniale>
 					<gesagents:nombre_enfant>2</gesagents:nombre_enfant>
 					<!-- Début définition des Beneficiers -->
 					<gesbeneficiers:les_beneficieres>
-						<!-- Bénéficier Modou SANKE -->
+						<!-- Bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF013" gesbeneficiers:sexe="gesbeneficiers:Masculin">
-							<gesbeneficiers:nom>SANKE</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Modou</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Epoux</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
-						<!-- Bénéficier Anta SANKE -->
+						<!-- Bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF014" gesbeneficiers:sexe="gesbeneficiers:Féminin">
-							<gesbeneficiers:nom>SANKE</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Anta</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Enfant</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
-						<!-- Bénéficier Mame Mor SANKE -->
+						<!-- Bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF015" gesbeneficiers:sexe="gesbeneficiers:Masculin">
-							<gesbeneficiers:nom>SANKE</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Mame Mor</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Enfant</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
-						<!-- Bénéficier Fatou SOW, l'agent est aussi bénéficier -->
+						<!-- Bénéficier, l'agent est aussi bénéficier -->
 						<gesbeneficiers:beneficier gesbeneficiers:identifiant="gesbeneficiers:BF020" gesbeneficiers:sexe="gesbeneficiers:Masculin">
-							<gesbeneficiers:nom>SOW</gesbeneficiers:nom>
-							<gesbeneficiers:prenom>Fatou</gesbeneficiers:prenom>
+							<gesbeneficiers:nom>Nom</gesbeneficiers:nom>
+							<gesbeneficiers:prenom>Prenom</gesbeneficiers:prenom>
 							<gesbeneficiers:type>Agent</gesbeneficiers:type>
 						</gesbeneficiers:beneficier>
 				    </gesbeneficiers:les_beneficieres>
@@ -206,16 +206,16 @@
 		<!-- Fin définition des Agents -->
 		
 		<!-- Début définition des Hopitaux -->
-		<geshopitaux:les_hopitaux xmlns:geshopitaux="http://www.uasz.sn/gestiondeshopitaux"
-								  xmlns:gesservices="http://www.uasz.sn/gestiondesservices">
+		<geshopitaux:les_hopitaux xmlns:geshopitaux="http://domaine/gestiondeshopitaux"
+								  xmlns:gesservices="http://domaine/gestiondesservices">
 		
-				<!-- Hopital de la paix -->
+				<!-- Hopital -->
 				<geshopitaux:hopital geshopitaux:hop="geshopitaux:HOP200">
-					<geshopitaux:nom>Hopital de la paix</geshopitaux:nom>
-					<geshopitaux:adresse>Boucotte Sud rue de la paix, Ziguinchor</geshopitaux:adresse>
-					<geshopitaux:telephone>+221336543421</geshopitaux:telephone>
-					<geshopitaux:email>hopdelapaix@gmail.com</geshopitaux:email>
-					<!-- Début définition des Services de l'hopital de la paix -->
+					<geshopitaux:nom>Nom Hopital</geshopitaux:nom>
+					<geshopitaux:adresse>Adresse hopital</geshopitaux:adresse>
+					<geshopitaux:telephone>+221330000000</geshopitaux:telephone>
+					<geshopitaux:email>hopital@exemple.com</geshopitaux:email>
+					<!-- Début définition des Services de l'hopital -->
 					<gesservices:les_services>
 						<gesservices:service>Psychiatrie</gesservices:service>
 						<gesservices:service>Neurologie</gesservices:service>
@@ -227,16 +227,16 @@
 						<gesservices:service>Pharmacie</gesservices:service>
 						<gesservices:service>Maternité</gesservices:service>
 					</gesservices:les_services>
-					<!-- Fin définition des Services de l'hopital de la paix -->
+					<!-- Fin définition des Services de l'hopital -->
 				</geshopitaux:hopital>
 				
-				<!-- Hopital silence -->
+				<!-- Hopital -->
 				<geshopitaux:hopital geshopitaux:hop="geshopitaux:HOP201">
-					<geshopitaux:nom>Hopital silence</geshopitaux:nom>
-					<geshopitaux:adresse>Nema 2 rue de l&apos;indépendance, Ziguinchor</geshopitaux:adresse>
-					<geshopitaux:telephone>+221338560012</geshopitaux:telephone>
-					<geshopitaux:email>hopsilence@gmail.com</geshopitaux:email>
-					<!-- Début définition des Services de l'hopital silence -->
+					<geshopitaux:nom>Nom Hopital</geshopitaux:nom>
+					<geshopitaux:adresse>Adresse hopital</geshopitaux:adresse>
+					<geshopitaux:telephone>+221330000000</geshopitaux:telephone>
+					<geshopitaux:email>hopital@exemple.com</geshopitaux:email>
+					<!-- Début définition des Services de l'hopital -->
 					<gesservices:les_services>
 						<gesservices:service>Neurochirurgie</gesservices:service>
 						<gesservices:service>Bucco-dentaire</gesservices:service>
@@ -247,16 +247,16 @@
 						<gesservices:service>Maladie infectieuse</gesservices:service>
 						<gesservices:service>Pharmacie</gesservices:service>
 					</gesservices:les_services>
-					<!-- Fin définition des Services de l'hopital silence -->
+					<!-- Fin définition des Services de l'hopital -->
 				</geshopitaux:hopital>
 				
-				<!-- Hopital régionale -->
+				<!-- Hopital -->
 				<geshopitaux:hopital geshopitaux:hop="geshopitaux:HOP202">
-					<geshopitaux:nom>Hopital régional</geshopitaux:nom>
-					<geshopitaux:adresse>Escal 1 rue Aline Sitoé DIATTA, Ziguinchor</geshopitaux:adresse>
-					<geshopitaux:telephone>+221333347687</geshopitaux:telephone>
-					<geshopitaux:email>hopregionale@gmail.com</geshopitaux:email>
-					<!-- Début définition des Services de l'hopital régionale -->
+					<geshopitaux:nom>Nom Hopital</geshopitaux:nom>
+					<geshopitaux:adresse>Adresse hopital</geshopitaux:adresse>
+					<geshopitaux:telephone>+221330000000</geshopitaux:telephone>
+					<geshopitaux:email>hopital@exemple.com</geshopitaux:email>
+					<!-- Début définition des Services de l'hopital -->
 					<gesservices:les_services>
 						<gesservices:service>Hépato-gastroentérologie</gesservices:service>
 						<gesservices:service>Traumatologie</gesservices:service>
@@ -269,14 +269,14 @@
 						<gesservices:service>Pharmacie</gesservices:service>
 						<gesservices:service>Maladie infectieuse</gesservices:service>
 					</gesservices:les_services>
-					<!-- Fin définition des Services de l'hopital régionale -->
+					<!-- Fin définition des Services de l'hopital -->
 				</geshopitaux:hopital>
 				
 		</geshopitaux:les_hopitaux>
 		<!-- Fin définition des Hopitaux -->
 	
 		<!-- Début définition des Imputations -->
-		<gesimputations:les_imputations xmlns:gesimputations="http://www.uasz.sn/gestiondesimputations">
+		<gesimputations:les_imputations xmlns:gesimputations="http://domaine/gestiondesimputations">
 		
 				<!-- Imputation demandé pour le bénéficier "BF001" pour le service "Urologie" de l'hopital "HOP202" -->
 				<!-- Lorsqu'on a le bénéficier on peut directement connaitre l'agent à qui il est rattaché -->
