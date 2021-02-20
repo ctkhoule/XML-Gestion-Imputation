@@ -1,15 +1,15 @@
 # XML-Gestion-Imputation
-Mise en place d'un système de gestion d'imputation
+Mise en place d'un système de gestion d'imputation.
 
 ## Projet gestion des imputations du personnel de [l'UASZ](https://www.univ-zig.sn/).
 
 Le projet concerne le partage des informations des imputations du personnel de [l'UASZ](https://www.univ-zig.sn/) avec les hopitaux de la région de Ziguinchor (Sénégal).
 
-Le projet entre dans le cadre de la formation en __Master 1 Génie Logiciel Conduite de Projet__  (2017-2018) du département informatique de [l'UASZ](https://www.univ-zig.sn/).
+Le projet entre dans le cadre de la formation en __Master 1 Génie Logiciel Conduite de Projet__  (année académique 2017-2018) du département informatique de [l'UASZ](https://www.univ-zig.sn/).
 
 Le projet est découpé en quatre parties :
 
-- Partie 01 : Création du Document XML.
+- Partie 01 : Création du document XML.
 
 - Partie 02 : Utilisation des espaces de noms.
 
