@@ -28,4 +28,4 @@ Abréviation :
 
 NB :
 
-A noter que le document est ume démo.
+A noter que le document est ume démo pour respecter la protection des données personnels.
